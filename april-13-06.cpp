@@ -14,6 +14,7 @@ long long factorial (int num)
 int main()
 {
     int num;
+    cout<<"Enter a number to find its factorial : "; 
     cin >> num;
-    cout << factorial(num) << endl;
+    cout << "The factorial of "<<num<<" is : "<<factorial(num) << endl;
 }
